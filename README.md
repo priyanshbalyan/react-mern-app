@@ -1,3 +1,5 @@
+![Node.js CI](https://github.com/priyanshbalyan/react-mern-app/workflows/Node.js%20CI/badge.svg)
+
 If you have docker simply run the app using following commands
 ``docker-compose build``
 ``docker-compose up``
