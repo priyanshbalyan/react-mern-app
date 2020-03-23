@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import axios from "axios";  
-import MenuIcon from '@material-ui/icons/Menu';
-import {Paper, Button, Snackbar, IconButton, Typography, Toolbar, TextField, AppBar } from '@material-ui/core';
+import {Paper, Button, Snackbar, TextField } from '@material-ui/core';
 import { Redirect } from 'react-router';
 import CssBaseline from "@material-ui/core/CssBaseline/CssBaseline";
 import ParticleComponent from '../components/particles';
@@ -75,16 +74,6 @@ class Login extends Component {
                 <ParticleComponent />
                 <div style={{position:"absolute", top:0, left:0, height:"100%", width:"100%"}}>
                 <CssBaseline />
-                <AppBar position="static">
-                    <Toolbar variant="dense">
-                        <IconButton color="inherit" aria-label="Menu">
-                            <MenuIcon />
-                        </IconButton>
-                        <Typography variant="h6" color="inherit">
-                            github.com/priyanshbalyan
-                        </Typography>
-                    </Toolbar>
-                </AppBar>
                 <Paper elevation={1} style={{backgroundColor: '#ECEDF6', position:"absolute", top:"50%", transform:"translateY(-50%)", left:0, right:0, margin:"auto", padding: '60px 40px', maxWidth:400}}>
                     <div style={{display: 'flex', justifyContent: 'center'}}>
                         <img src={loginIcon} alt='login' height='70px' width='auto'/>
